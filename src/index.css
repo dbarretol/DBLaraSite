@@ -6,6 +6,9 @@
   --color-primary02: #790123;
   --color-secondary01: #152F46;
   --color-secondary02: #05131E;
+  --color-uni01:#711610;
+  --color-uni02:#E6D9AA;
+
 
   --color-blanco: #FFFFFF;
   --color-negro: #000000;
@@ -67,8 +70,8 @@ h6 {
   padding:1.25rem;
 }
 
-h2 {
-  padding-top: 1rem;
+.section{
+  padding-bottom: 1rem;;
 }
 .section-container {
   background: var(--color-blanco);

@@ -1,0 +1,69 @@
+import React from 'react'
+import { Link } from "react-router-dom"
+import logoUNI from '/assets/icons/logo_UNI.png'
+import { BASE_ROUTE } from '../config';
+
+function MainNav() {
+    return (
+        <nav className="navbar navbar-expand-lg sticky-top custom-navbar">
+            <div className="container-fluid">
+                <Link className="navbar-brand" to={BASE_ROUTE}>
+                    <img src={logoUNI} alt="Logo UNI" height="45" className="d-inline-block align-text-center p-0" />
+                </Link>
+                <button className="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
+                {/* Menu superior*/}
+                <div className="collapse navbar-collapse" id="navbarNav">
+                    <ul className="navbar-nav me-auto">
+                        {/* Elemento 01 */}
+                        <li className="nav-item">
+                            <Link className="nav-link" to={`${BASE_ROUTE}/Education`}>Education</Link>
+                        </li>
+                        {/* Elemento 02 */}
+                        <li className="nav-item">
+                            <Link className="nav-link" to={`${BASE_ROUTE}/Experience`}>Experience</Link>
+                        </li>
+                        {/* Elemento 03 */}
+                        <li className="nav-item">
+                            <Link className="nav-link" to={`${BASE_ROUTE}/Projects`}>Projects</Link>
+                        </li>
+                        {/* Elemento 04 */}
+                        <li className="nav-item">
+                            <Link className="nav-link" to={`${BASE_ROUTE}/Publications`}>Publications</Link>
+                        </li>
+                        {/* Elemento 05 */}
+                        <li className="nav-item">
+                            <Link className="nav-link" to={`${BASE_ROUTE}/Certifications`}>Certifications</Link>
+                        </li>
+                        {/* Elemento 06 */}
+                        <li className="nav-item">
+                            <Link className="nav-link" to={`${BASE_ROUTE}/Awards`}>Awards</Link>
+                        </li>
+                        {/* Elemento 07 */}
+                        <li className="nav-item">
+                            <Link className="nav-link" to={`${BASE_ROUTE}/Other`}>Other activities</Link>
+                        </li>
+                        {/* Elemento 08 */}
+                        <li className="nav-item">
+                            <Link className="nav-link" to={`${BASE_ROUTE}/DigitalSkills`}>Digital Skills</Link>
+                        </li>
+                        {/* Elemento 09 */}
+                        <li className="nav-item">
+                            <Link className="nav-link" to={`${BASE_ROUTE}/Languages`}>Languages</Link>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    )
+}
+
+export default MainNav

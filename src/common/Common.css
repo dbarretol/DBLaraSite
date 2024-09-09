@@ -24,3 +24,21 @@
     text-align: center;
     padding: 2rem;
 }
+
+/****************** Estilos para el navbar ******************/
+.custom-navbar{
+    background-color: var(--color-uni02);
+}
+
+.custom-navbar .nav-link{
+    color: var(--color-uni01);
+    font-weight: bold;
+}
+
+.custom-navbar .nav-link:hover{
+    font-weight: normal;
+}
+
+.custom-navbar .nav-link:active{
+    color: var(--color-negro);
+}

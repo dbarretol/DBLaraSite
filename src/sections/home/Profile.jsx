@@ -1,12 +1,13 @@
 import React from 'react'
+import ProfileImg from '/assets/images/photo.png'
 
 function Profile() {
     return (
-        <>
+        <div className="section">
             <h2>Profesional Profile</h2>
             <div className="row d-flex align-items-center">
                 <div className="col-md-3 col-sm-12">
-                    <img src="DBLaraSite/assets/images/photo.png" alt="Foto de perfil" />
+                    <img src={ProfileImg} alt="Foto de perfil" />
                 </div>
                 <div className="col-md-9 col-sm-12 text-center">
                     <p>
@@ -15,7 +16,7 @@ function Profile() {
                     </p>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 

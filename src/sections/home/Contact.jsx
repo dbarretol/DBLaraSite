@@ -23,7 +23,7 @@ const ContactItem = ({ href, Icon, text }) => (
 
 function Contact() {
     return (
-        <>
+        <div className="section">
             <h2>Contact Details</h2>
             <div className="row d-flex flex-wrap justify-content-center align-items-center g-4">
                 <ContactItem
@@ -35,9 +35,9 @@ function Contact() {
                     text="[Only under request]"
                 />
                 <ContactItem
-                    href="mailto:abc@example.com"
+                    href="mailto:dbarretol@outlook.com"
                     Icon={TfiEmail}
-                    text="Enviar un correo"
+                    text="dbarretol@outlook.com"
                 />
                 <ContactItem
                     href="https://pe.linkedin.com/in/dbarretol"
@@ -55,7 +55,7 @@ function Contact() {
                     text="dbarretol"
                 />
             </div>
-        </>
+        </div>
     );
 }
 
