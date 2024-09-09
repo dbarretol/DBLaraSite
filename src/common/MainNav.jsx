@@ -24,39 +24,39 @@ function MainNav() {
                     <ul className="navbar-nav me-auto">
                         {/* Elemento 01 */}
                         <li className="nav-item">
-                            <Link className="nav-link" to={`${BASE_ROUTE}/Education`}>Education</Link>
+                            <Link className="nav-link" to={`${BASE_ROUTE}/Education`}>Educación</Link>
                         </li>
                         {/* Elemento 02 */}
                         <li className="nav-item">
-                            <Link className="nav-link" to={`${BASE_ROUTE}/Experience`}>Experience</Link>
+                            <Link className="nav-link" to={`${BASE_ROUTE}/Experience`}>Experiencia</Link>
                         </li>
                         {/* Elemento 03 */}
                         <li className="nav-item">
-                            <Link className="nav-link" to={`${BASE_ROUTE}/Projects`}>Projects</Link>
+                            <Link className="nav-link" to={`${BASE_ROUTE}/Projects`}>Proyectos</Link>
                         </li>
                         {/* Elemento 04 */}
                         <li className="nav-item">
-                            <Link className="nav-link" to={`${BASE_ROUTE}/Publications`}>Publications</Link>
+                            <Link className="nav-link" to={`${BASE_ROUTE}/Publications`}>Publicaciones</Link>
                         </li>
                         {/* Elemento 05 */}
                         <li className="nav-item">
-                            <Link className="nav-link" to={`${BASE_ROUTE}/Certifications`}>Certifications</Link>
+                            <Link className="nav-link" to={`${BASE_ROUTE}/Certifications`}>Certificaciones</Link>
                         </li>
                         {/* Elemento 06 */}
                         <li className="nav-item">
-                            <Link className="nav-link" to={`${BASE_ROUTE}/Awards`}>Awards</Link>
+                            <Link className="nav-link" to={`${BASE_ROUTE}/Awards`}>Premios y reconocimientos</Link>
                         </li>
                         {/* Elemento 07 */}
                         <li className="nav-item">
-                            <Link className="nav-link" to={`${BASE_ROUTE}/Other`}>Other activities</Link>
+                            <Link className="nav-link" to={`${BASE_ROUTE}/Other`}>Otras actividades</Link>
                         </li>
                         {/* Elemento 08 */}
                         <li className="nav-item">
-                            <Link className="nav-link" to={`${BASE_ROUTE}/DigitalSkills`}>Digital Skills</Link>
+                            <Link className="nav-link" to={`${BASE_ROUTE}/DigitalSkills`}>Competencias digitales</Link>
                         </li>
                         {/* Elemento 09 */}
                         <li className="nav-item">
-                            <Link className="nav-link" to={`${BASE_ROUTE}/Languages`}>Languages</Link>
+                            <Link className="nav-link" to={`${BASE_ROUTE}/Languages`}>Idiomas</Link>
                         </li>
 
                     </ul>

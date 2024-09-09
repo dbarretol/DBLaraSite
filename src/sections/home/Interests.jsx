@@ -3,7 +3,7 @@ import React from 'react'
 function Interests() {
     return (
         <div className="section">
-            <h2>Interests</h2>
+            <h2>Intereses</h2>
             <div className="row justify-content-center">
                 <span className="col-auto badge-custom">Energía eólica</span>
                 <span className="col-auto badge-custom">Cloud computing</span>

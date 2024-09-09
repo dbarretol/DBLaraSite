@@ -4,7 +4,7 @@ import ProfileImg from '/assets/images/photo.png'
 function Profile() {
     return (
         <div className="section">
-            <h2>Profesional Profile</h2>
+            <h2>Perfil Profesional</h2>
             <div className="row d-flex align-items-center">
                 <div className="col-md-3 col-sm-12">
                     <img src={ProfileImg} alt="Foto de perfil" />

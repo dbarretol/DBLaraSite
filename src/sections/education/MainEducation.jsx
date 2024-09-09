@@ -12,7 +12,7 @@ const EducationEntry = ({ imgSrc, altText, program, institution, periods }) => (
                 <div className='institution'>{institution}</div>
                 <div className='periods'>{periods}</div>
                 <div className="button-container text-start">
-                    <button className="btn btn-primary btn-custom">Details</button>
+                    <button className="btn btn-primary btn-custom">Ver detalles</button>
                 </div>
 
             </div>
@@ -47,7 +47,7 @@ function MainEducation() {
 
     return (
         <div className="section">
-            <h2>Main Education</h2>
+            <h2>Formación Acádemica</h2>
             <div className="container">
                 <div className="row">
                     {educationData.map((entry, index) => (

@@ -24,7 +24,7 @@ const ContactItem = ({ href, Icon, text }) => (
 function Contact() {
     return (
         <div className="section">
-            <h2>Contact Details</h2>
+            <h2>Contacto</h2>
             <div className="row d-flex flex-wrap justify-content-center align-items-center g-4">
                 <ContactItem
                     Icon={MdOutlinePlace}
@@ -32,7 +32,7 @@ function Contact() {
                 />
                 <ContactItem
                     Icon={TfiMobile}
-                    text="[Only under request]"
+                    text="[A solicitud]"
                 />
                 <ContactItem
                     href="mailto:dbarretol@outlook.com"
