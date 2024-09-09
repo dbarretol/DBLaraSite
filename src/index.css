@@ -53,6 +53,25 @@ p {
   box-sizing: border-box;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+}
+
+.canvas {
+  background: var(--color-gris-linkedin);
+  padding:1.25rem;
+}
+
+.section-container {
+  background: var(--color-blanco);
+  border-radius: 32px;
+  padding:1.5rem;
+}
 
 @media (min-width: 1500px) {
 
@@ -62,6 +81,6 @@ p {
   .container-sm,
   .container-xl,
   .container-xxl {
-      max-width: 992px;
+    max-width: 992px;
   }
 }

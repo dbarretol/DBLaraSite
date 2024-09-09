@@ -1,0 +1,19 @@
+img {
+    max-height: 200px;
+    /* Mantiene la relación de aspecto */
+    width: auto;
+    /* Asegura que la imagen se ajuste al contenedor sin distorsionarse */
+    object-fit: contain;
+    /* Centra la imagen dentro del contenedor */
+    object-position: center;
+    /* Elimina el espacio en línea alrededor de la imagen */
+    display: block;
+    /* Centra la imagen horizontalmente */
+    margin: 0 auto;
+    padding: 0.5rem;
+    border-radius: 32px
+}
+
+.container img {
+    max-width: 100%;
+}
