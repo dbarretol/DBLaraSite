@@ -17,3 +17,34 @@ img {
 .container img {
     max-width: 100%;
 }
+
+/****************** Seccion contacto ******************/
+.custom-icon{
+    color:var(--color-azul-01);
+    font-size: 32px;
+}
+
+/****************** Seccion badge ******************/
+.badge-custom {
+    /* Cambia a flex o block */
+    display: inline-block;
+    /**padding superior/inferior + padding derecho/izquierdo */
+    padding: 0.35em 0.4em;
+    margin: 0.75em;
+    /* Centra verticalmente */
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    /* Hace que el badge sea redondeado como un píldora */
+    border-radius: 50rem;
+    /* Color del texto dentro del badge */
+    color: var(--color-blanco);
+    /* Color de fondo del badge, puedes cambiar esto */
+    background-color: var(--color-azul-01);
+    /* Borde del badge, transparente por defecto */
+    border: 1px solid transparent;
+
+    /*font-size: 75%;
+    font-weight: 700;
+    line-height: 1;*/
+}

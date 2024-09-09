@@ -67,6 +67,9 @@ h6 {
   padding:1.25rem;
 }
 
+h2 {
+  padding-top: 1rem;
+}
 .section-container {
   background: var(--color-blanco);
   border-radius: 32px;

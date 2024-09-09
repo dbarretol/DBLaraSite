@@ -2,11 +2,11 @@ import React from 'react'
 
 function Profile() {
     return (
-        <div className="container section-container">
+        <>
             <h2>Profesional Profile</h2>
             <div className="row d-flex align-items-center">
                 <div className="col-md-3 col-sm-12">
-                    <img src="DBLaraSite/assets/images/photo.png" alt="Foto de perfil"/>
+                    <img src="DBLaraSite/assets/images/photo.png" alt="Foto de perfil" />
                 </div>
                 <div className="col-md-9 col-sm-12 text-center">
                     <p>
@@ -15,7 +15,7 @@ function Profile() {
                     </p>
                 </div>
             </div>
-        </div>
+        </>
     )
 }
 
