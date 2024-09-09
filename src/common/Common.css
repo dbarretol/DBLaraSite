@@ -1,0 +1,26 @@
+/****************** Estilos para el contenedor principal del header ******************/
+#Header {
+    background: linear-gradient(108.99deg, var(--color-primary01) 0%, var(--color-primary02) 100%);
+    color: var(--color-blanco);
+    padding: 1.5rem 1rem 2.5rem; /* Top / right / bottom */
+    text-align: center; /* Centraliza el texto para todo el header */
+}
+
+/* Estilos para el título dentro del header */
+#Header h1 {
+    padding: 1.5rem 0; /* Padding superior e inferior */
+}
+
+/* Estilos para el párrafo dentro del header */
+#Header p {
+    padding: 0 3.5rem; /* Padding lateral */
+}
+
+
+/****************** Estilos para el contenedor principal del footer ******************/
+#Footer{
+    background: var(--color-gris-oscuro);
+    color: var(--color-gris-claro);
+    text-align: center;
+    padding: 2rem;
+}

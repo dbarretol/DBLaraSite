@@ -1,68 +1,67 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+  /* Fuentes */
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  /* Colores */
+  --color-primary01: #AD122A;
+  --color-primary02: #790123;
+  --color-secondary01: #152F46;
+  --color-secondary02: #05131E;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+  --color-blanco: #FFFFFF;
+  --color-negro: #000000;
+  --color-gris-claro: #CCCCCC;
+  --color-gris-oscuro: #333333;
+  --color-gris-linkedin: #F4F2EE;
+  --color-azul-01: #0B2F9F;
+  --color-azul-02: #0A66C2;
+  /* Tamaños */
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+  /* Otros */
+
+
 }
 
 body {
+  /*   Elimina el margen por defecto que los navegadores suelen aplicar al body. Esto asegura 
+  que el contenido del body se extienda hasta los bordes de la ventana del navegador sin 
+  espacio adicional alrededor. */
   margin: 0;
-  display: flex;
-  place-items: center;
+  padding: 0;
+  /*   Establece que el body utiliza el modelo de diseño Flexbox. Flexbox es una forma de alinear 
+  y distribuir espacio entre elementos en una interfaz y facilita la alineación vertical y 
+  horizontal. */
+  /*display: flex;*/
+  /*   Esta propiedad es un atajo para alinear los ítems dentro del contenedor Flexbox tanto en el 
+  eje transversal (vertical) como en el eje principal (horizontal). -----  align-items: center;---*/
+  justify-items: center;
+  align-items: center;
+  /*   Establece el ancho mínimo del body en 320 píxeles. Esto asegura que el contenido del body no se 
+  reduzca a menos de 320 píxeles de ancho, lo que es útil para mantener una experiencia de usuario
+   adecuada en pantallas pequeñas. */
   min-width: 320px;
+  /*   Establece la altura mínima del body en 100% de la altura del viewport (vista del navegador). 100vh 
+  significa 100% de la altura del viewport. Esto asegura que el body siempre tenga al menos la altura 
+  completa de la ventana del navegador, lo que es útil para mantener el contenido centrado verticalmente 
+  incluso si el contenido es menor que la altura de la ventana. */
   min-height: 100vh;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+h1,
+p {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
+@media (min-width: 1500px) {
+
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+      max-width: 992px;
   }
 }
