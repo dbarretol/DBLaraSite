@@ -28,11 +28,11 @@ function MainNav() {
                         </li>
                         {/* Elemento 02 */}
                         <li className="nav-item">
-                            <Link className="nav-link" to={`${BASE_ROUTE}/Experience`}>Experiencia</Link>
+                            <Link className="nav-link" to={`${BASE_ROUTE}/Experiencia`}>Experiencia</Link>
                         </li>
                         {/* Elemento 03 */}
                         <li className="nav-item">
-                            <Link className="nav-link" to={`${BASE_ROUTE}/Projects`}>Proyectos</Link>
+                            <Link className="nav-link" to={`${BASE_ROUTE}/Proyectos`}>Proyectos</Link>
                         </li>
                         {/* Elemento 04 */}
                         <li className="nav-item">

@@ -8,6 +8,8 @@ import MainNav from './common/MainNav'
 
 import Home from './sections/home/Home'
 import Education from './sections/education/Education.jsx'
+import Experience from './sections/experience/Experience.jsx';
+import Project from './sections/projects/Projects.jsx';
 
 
 
@@ -22,6 +24,8 @@ function App() {
           <Routes>
             <Route path={BASE_ROUTE} element={<Home />} />
             <Route path={`${BASE_ROUTE}/Estudios`} element={<Education />} />
+            <Route path={`${BASE_ROUTE}/Experiencia`} element={<Experience />} />
+            <Route path={`${BASE_ROUTE}/Proyectos`} element={<Project />} />
 
           </Routes>
 
