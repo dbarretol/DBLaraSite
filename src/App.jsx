@@ -21,7 +21,7 @@ function App() {
         <main>
           <Routes>
             <Route path={BASE_ROUTE} element={<Home />} />
-            <Route path={`${BASE_ROUTE}/Education`} element={<Education />} />
+            <Route path={`${BASE_ROUTE}/Estudios`} element={<Education />} />
 
           </Routes>
 

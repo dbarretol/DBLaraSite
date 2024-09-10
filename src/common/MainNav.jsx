@@ -24,7 +24,7 @@ function MainNav() {
                     <ul className="navbar-nav me-auto">
                         {/* Elemento 01 */}
                         <li className="nav-item">
-                            <Link className="nav-link" to={`${BASE_ROUTE}/Education`}>Educación</Link>
+                            <Link className="nav-link" to={`${BASE_ROUTE}/Estudios`}>Estudios</Link>
                         </li>
                         {/* Elemento 02 */}
                         <li className="nav-item">

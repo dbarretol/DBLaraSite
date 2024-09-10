@@ -1,3 +1,21 @@
-.btn-custom{
+.btn-custom {
     background: var(--color-negro);
+}
+
+.academic-program {
+    font-weight: bold;
+    text-align: center;
+}
+
+.institution {
+    font-style: italic;
+    text-align: center;
+}
+
+.periods {
+    text-align: center;
+}
+
+.logo {
+    height: 100px;
 }

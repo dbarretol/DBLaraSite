@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './Education.css';
-import educationData from './../../data/mainEducation';  // Asegúrate de ajustar la ruta si es necesario
+import educationData from './../../data/complementEducationData';  // Asegúrate de ajustar la ruta si es necesario
 import { BASE_ROUTE } from './../../config';
 
 const EducationEntry = ({ imgSrc, altText, program, institution, periods }) => (
@@ -22,7 +22,7 @@ const EducationEntry = ({ imgSrc, altText, program, institution, periods }) => (
     </div>
 );
 
-function MainEducation() {
+function ComplementaryEducation() {
     const [data, setData] = useState([]);
 
     useEffect(() => {
@@ -32,7 +32,7 @@ function MainEducation() {
 
     return (
         <div className="section">
-            <h2>Formación Acádemica</h2>
+            <h2>Formación Acádemica Complementaria</h2>
             <div className="container">
                 <div className="row">
                     {data.map((entry, index) => (
@@ -44,4 +44,4 @@ function MainEducation() {
     );
 }
 
-export default MainEducation;
+export default ComplementaryEducation;
