@@ -10,6 +10,7 @@ import Home from './sections/home/Home'
 import Education from './sections/education/Education.jsx'
 import Experience from './sections/experience/Experience.jsx';
 import Project from './sections/projects/Projects.jsx';
+import Publications from './sections/publications/Publications.jsx';
 
 
 
@@ -26,6 +27,7 @@ function App() {
             <Route path={`${BASE_ROUTE}/Estudios`} element={<Education />} />
             <Route path={`${BASE_ROUTE}/Experiencia`} element={<Experience />} />
             <Route path={`${BASE_ROUTE}/Proyectos`} element={<Project />} />
+            <Route path={`${BASE_ROUTE}/Publicaciones`} element={<Publications />} />
 
           </Routes>
 

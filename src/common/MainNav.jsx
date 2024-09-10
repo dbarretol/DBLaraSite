@@ -36,7 +36,7 @@ function MainNav() {
                         </li>
                         {/* Elemento 04 */}
                         <li className="nav-item">
-                            <Link className="nav-link" to={`${BASE_ROUTE}/Publications`}>Publicaciones</Link>
+                            <Link className="nav-link" to={`${BASE_ROUTE}/Publicaciones`}>Publicaciones</Link>
                         </li>
                         {/* Elemento 05 */}
                         <li className="nav-item">
